@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Uploaded Data
+data/resumes/*
+data/processed/*
+
+# Keep folders
+!data/resumes/.gitkeep
+!data/processed/.gitkeep
+
+# IDE Files
+.vscode/
+.idea/
