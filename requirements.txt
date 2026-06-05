@@ -10,3 +10,4 @@ python-dotenv
 pyyaml
 spacy
 tqdm
+chromadb

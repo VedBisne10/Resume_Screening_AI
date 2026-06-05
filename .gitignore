@@ -19,3 +19,4 @@ data/processed/*
 # IDE Files
 .vscode/
 .idea/
+.chroma_db/
