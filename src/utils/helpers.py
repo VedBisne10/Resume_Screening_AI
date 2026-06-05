@@ -2,12 +2,13 @@ import os
 
 def load_job_descriptions(folder_path):
     # Dictionary to store job descriptions
+    # Using a dictionary because it stores the data as key:value pair ("python_developer.txt": "Python Developer\nPython\nDocker\nAWS") and becomes a unique ID stored in chromaDB
     job_descriptions = {}   
 
     # Loop through all files present in the given folder
     for file_name in os.listdir(folder_path):
 
-        # Process only text files containing job descriptions
+        # Process only text files (.txt) containing job descriptions
         if file_name.endswith(".txt"):  
 
             # Create the complete path of the file  

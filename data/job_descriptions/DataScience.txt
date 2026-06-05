@@ -1,0 +1,32 @@
+Roles
+Data Science Intern
+
+Responsibilities:
+1. Collect, clean, and preprocess datasets for analysis
+2. Perform exploratory data analysis (EDA) using Python
+3. Create visualizations and dashboards using Matplotlib/Seaborn/Power BI
+4. Assist in building and testing machine learning models
+5. Work with libraries such as Pandas, NumPy, and Scikit-learn
+6. Support the team in data-driven decision-making
+7. Prepare reports and present insights from datasets
+8. Collaborate with mentors on real-time projects
+9. Maintain project documentation and GitHub repositories
+
+
+Requirements:
+1. Basic knowledge of Python programming
+2. Understanding of Data Science and Machine Learning concepts
+3. Familiarity with SQL and data handling
+4. Knowledge of libraries such as Pandas, NumPy, and Matplotlib
+5. Good analytical and problem-solving skills
+6. Willingness to learn and work on real-time projects
+7. Basic understanding of Git/GitHub is a plus
+8. Strong communication and teamwork skills
+9. Pursuing or completed a degree in Computer Science, IT, Data Science, or related fields
+
+
+Preferred Skills:
+Knowledge of Machine Learning algorithms
+Experience with Jupyter Notebook or Google Colab
+Basic understanding of statistics and data visualization
+Familiarity with Power BI/Tableau is an added advantage

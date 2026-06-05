@@ -6,7 +6,7 @@ model = SentenceTransformer(
 )
 
 def generate_embedding(text):
-    # Generate Embeddings
+    # It Generate Embeddings of the text present in the pdf
     embedding = model.encode(text)
 
     return embedding
