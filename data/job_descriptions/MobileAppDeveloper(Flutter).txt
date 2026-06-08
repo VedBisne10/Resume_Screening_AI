@@ -1,0 +1,33 @@
+JD-014 | MOBILE APP DEVELOPER (FLUTTER)
+--------------------------------------------------------------------------------
+Company: AppMorph Labs
+Location: Ahmedabad, India (Remote)
+Experience: 2–5 Years
+Employment Type: Full-Time
+
+About the Role:
+AppMorph Labs is looking for a Flutter Developer to build beautiful,
+cross-platform mobile applications for iOS and Android from a single codebase.
+
+Responsibilities:
+- Design and develop high-quality Flutter applications for iOS and Android.
+- Implement clean architecture patterns: BLoC, Provider, or Riverpod.
+- Integrate REST APIs, Firebase services, and third-party SDKs.
+- Build custom UI components and animations for rich user experiences.
+- Optimize app performance including build times, memory usage, and frame rates.
+- Write unit, widget, and integration tests for critical application flows.
+- Publish apps to the Google Play Store and Apple App Store.
+- Collaborate with backend developers and designers in an agile workflow.
+
+Required Skills:
+- Strong proficiency in Dart and the Flutter SDK.
+- Experience with state management solutions: BLoC, Provider, or Riverpod.
+- Hands-on experience with Firebase: Firestore, Auth, Messaging, Analytics.
+- Understanding of platform-specific integration using platform channels.
+- Familiarity with RESTful API consumption and JSON serialization.
+- Knowledge of Git workflows and version control best practices.
+
+Preferred Qualifications:
+- Experience with Flutter Web or Flutter Desktop builds.
+- Knowledge of native Android (Kotlin) or iOS (Swift) development.
+- Published apps on Google Play Store or App Store.

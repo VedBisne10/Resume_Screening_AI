@@ -32,6 +32,10 @@ IMPORTANT RULES:
 
 - Return skills as individual items.
 
+- Extract all the education and experience present in the resume
+
+- Extract expirience with its details about the expirience
+
 Bad Examples:
 Programming
 Libraries
@@ -55,14 +59,41 @@ Document:
 
 {text}
 """
-# Good Examples:
-# Python
-# SQL
-# Docker
-# AWS
-# PyTorch
-# TensorFlow
-# FastAPI
-# PostgreSQL
-# Git
-# Pandas
+
+def skill_validation_prompt(jd_skills, resume_summary):
+    skills_list = "\n".join(f"- {skill}" for skill in jd_skills)
+
+    return f"""
+You are an expert technical recruiter evaluating a candidate's resume.
+
+Resume Summary:
+{resume_summary}
+
+Required Skills from Job Description:
+{skills_list}
+
+Instructions:
+- For each skill, return YES if the candidate demonstrates that competency
+  either directly (skill is mentioned) OR indirectly (they have used 
+  technologies/built projects that prove that skill).
+- Return NO only if there is genuinely no evidence of that skill.
+
+Good inference examples:
+- Resume has PyTorch, scikit-learn, built regression model -> "Machine Learning" = YES
+- Resume has React, built frontend dashboards -> "JavaScript" = YES
+- Resume has Docker, deployed on AWS EC2 -> "DevOps" = YES
+
+Bad inference examples:
+- Resume has Python -> "Java" = NO
+- Resume has SQL -> "Hibernate" = NO
+- Resume has Excel -> "Power BI" = NO
+
+Return ONLY valid JSON where keys are skill names and values are YES or NO.
+
+Example output format:
+{{
+    "Machine Learning": "YES",
+    "Java": "NO",
+    "REST APIs": "YES"
+}}
+"""

@@ -1,0 +1,33 @@
+JD-011 | CLOUD ENGINEER (AWS)
+--------------------------------------------------------------------------------
+Company: SkyScale Infrastructure
+Location: Bangalore, India (On-site)
+Experience: 3–7 Years
+Employment Type: Full-Time
+
+About the Role:
+SkyScale Infrastructure is looking for a Cloud Engineer specializing in AWS to
+design and operate our cloud-native infrastructure for high-availability workloads.
+
+Responsibilities:
+- Architect, deploy, and manage scalable AWS cloud infrastructure.
+- Design multi-region, fault-tolerant architectures for production workloads.
+- Implement infrastructure as code using Terraform and AWS CloudFormation.
+- Manage AWS services: EC2, ECS/EKS, RDS, S3, Lambda, CloudFront, Route 53.
+- Set up cost optimization strategies and enforce cloud governance policies.
+- Automate cloud operations using Python/Boto3 or AWS CLI scripting.
+- Implement cloud security: IAM, Security Groups, KMS, WAF, and Shield.
+- Collaborate with DevOps and software teams on architecture decisions.
+
+Required Skills:
+- Deep expertise in AWS services and cloud architecture patterns.
+- Experience with Infrastructure as Code: Terraform and/or CloudFormation.
+- Knowledge of networking: VPC, subnets, peering, Transit Gateway.
+- Proficiency in scripting: Python, Bash, or PowerShell.
+- Understanding of cloud security principles and compliance (SOC2, GDPR, HIPAA).
+- Experience with containerization: Docker and Kubernetes (EKS).
+
+Preferred Qualifications:
+- AWS Certified Solutions Architect (Professional) or DevOps Engineer certification.
+- Experience with multi-cloud or hybrid cloud environments.
+- Knowledge of FinOps and cloud cost optimization strategies.

@@ -1,0 +1,35 @@
+JD-003 | FULL STACK DEVELOPER
+--------------------------------------------------------------------------------
+Company: CodeCraft Solutions
+Location: Hyderabad, India (Hybrid)
+Experience: 3–7 Years
+Employment Type: Full-Time
+
+About the Role:
+We are seeking a talented Full Stack Developer to build and maintain scalable
+web applications. You will work across frontend, backend, and database layers
+to deliver seamless user experiences.
+
+Responsibilities:
+- Design and develop responsive web applications using React.js and Node.js.
+- Build RESTful APIs and GraphQL endpoints for web and mobile clients.
+- Write clean, modular, and maintainable code following SOLID principles.
+- Collaborate with UI/UX designers to implement pixel-perfect interfaces.
+- Integrate third-party APIs, payment gateways, and cloud services.
+- Manage databases (PostgreSQL, MongoDB) and optimize query performance.
+- Participate in code reviews and mentor junior developers.
+- Ensure application security, performance, and cross-browser compatibility.
+
+Required Skills:
+- Strong proficiency in JavaScript/TypeScript, React.js, and Node.js.
+- Experience with HTML5, CSS3, TailwindCSS, or Material UI.
+- Backend experience with Express.js or NestJS.
+- Database knowledge: PostgreSQL, MySQL, or MongoDB.
+- Familiarity with version control (Git), CI/CD pipelines, and Docker.
+- Understanding of REST API design principles and authentication (JWT, OAuth2).
+
+Preferred Qualifications:
+- Experience with Next.js or server-side rendering (SSR).
+- Knowledge of microservices architecture and message queues (RabbitMQ, Kafka).
+- AWS or GCP deployment experience.
+- B.Tech in Computer Science or equivalent.

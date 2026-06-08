@@ -1,0 +1,35 @@
+JD-018 | COMPUTER VISION ENGINEER
+--------------------------------------------------------------------------------
+Company: VisionAI Labs
+Location: Bangalore, India (Hybrid)
+Experience: 3–6 Years
+Employment Type: Full-Time
+
+About the Role:
+VisionAI Labs is looking for a Computer Vision Engineer to build intelligent
+visual recognition and analysis systems for our autonomous systems and
+smart surveillance products.
+
+Responsibilities:
+- Design and develop deep learning models for object detection, image segmentation,
+  and classification tasks.
+- Train and fine-tune state-of-the-art models: YOLO, ResNet, EfficientNet, SAM.
+- Build video analytics pipelines for real-time inference on edge devices.
+- Implement image preprocessing, augmentation, and annotation workflows.
+- Optimize models for deployment using TensorRT, ONNX, or OpenVINO.
+- Deploy CV models on edge devices (NVIDIA Jetson, Raspberry Pi, Coral).
+- Collaborate with hardware and firmware teams for end-to-end system integration.
+- Evaluate model performance using mAP, IoU, precision, and recall metrics.
+
+Required Skills:
+- Proficiency in Python and deep learning frameworks: PyTorch or TensorFlow.
+- Hands-on experience with OpenCV for image processing.
+- Experience with object detection frameworks: YOLO, Faster R-CNN, SSD.
+- Knowledge of transfer learning and domain adaptation techniques.
+- Familiarity with GPU programming and CUDA optimization.
+- Experience with annotation tools: LabelImg, CVAT, Roboflow.
+
+Preferred Qualifications:
+- Experience with 3D vision, LiDAR processing, or point cloud analysis.
+- Knowledge of generative models for image synthesis (GANs, Diffusion Models).
+- Experience with deploying models on NVIDIA Jetson or similar edge hardware.

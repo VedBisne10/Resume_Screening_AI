@@ -1,0 +1,36 @@
+JD-015 | NATURAL LANGUAGE PROCESSING (NLP) ENGINEER
+--------------------------------------------------------------------------------
+Company: LinguaTech AI
+Location: Bangalore, India (Hybrid)
+Experience: 3–6 Years
+Employment Type: Full-Time
+
+About the Role:
+LinguaTech AI is seeking an NLP Engineer to build intelligent language processing
+systems that power our conversational AI, document analysis, and information
+extraction products.
+
+Responsibilities:
+- Design and develop NLP pipelines for text classification, NER, summarization,
+  and sentiment analysis.
+- Fine-tune pre-trained transformer models (BERT, RoBERTa, T5, GPT) on domain-
+  specific datasets.
+- Build and evaluate RAG (Retrieval-Augmented Generation) pipelines for question
+  answering systems.
+- Develop data preprocessing and augmentation strategies for NLP tasks.
+- Benchmark and compare NLP models using standardized evaluation metrics.
+- Integrate NLP models into production APIs and real-time applications.
+- Stay up-to-date with the latest NLP research and implement new techniques.
+
+Required Skills:
+- Proficiency in Python and deep learning frameworks: PyTorch or TensorFlow.
+- Hands-on experience with Hugging Face Transformers library and model hub.
+- Strong understanding of NLP concepts: tokenization, embeddings, attention mechanisms.
+- Experience with text preprocessing tools: SpaCy, NLTK, or Stanza.
+- Familiarity with vector stores: Pinecone, Weaviate, FAISS, or ChromaDB.
+- Knowledge of evaluation metrics: BLEU, ROUGE, F1-score, Exact Match.
+
+Preferred Qualifications:
+- Experience with multilingual NLP models (mBERT, XLM-R).
+- Knowledge of speech-to-text systems (Whisper, DeepSpeech).
+- Research background or publications in NLP/computational linguistics.

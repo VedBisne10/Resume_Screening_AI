@@ -1,0 +1,34 @@
+JD-007 | SQL DEVELOPER / DATABASE DEVELOPER
+--------------------------------------------------------------------------------
+Company: DataVault Enterprises
+Location: Delhi NCR, India (On-site)
+Experience: 3–6 Years
+Employment Type: Full-Time
+
+About the Role:
+DataVault Enterprises is hiring a SQL Developer to manage, optimize, and scale
+our enterprise data systems used for business intelligence and operational reporting.
+
+Responsibilities:
+- Design and maintain complex relational database schemas and data models.
+- Write optimized SQL queries, stored procedures, functions, and triggers.
+- Develop ETL pipelines for data ingestion from multiple sources.
+- Perform database performance tuning, indexing, and query optimization.
+- Create and maintain views, materialized views, and reporting queries.
+- Collaborate with BI teams to build dashboards and data reports.
+- Monitor database health, run backups, and manage disaster recovery plans.
+- Document data models, data dictionaries, and SQL codebase.
+
+Required Skills:
+- Expert-level proficiency in SQL (T-SQL or PL/SQL).
+- Experience with database platforms: SQL Server, PostgreSQL, Oracle, or MySQL.
+- Knowledge of query optimization techniques: indexing, partitioning, execution plans.
+- Familiarity with ETL tools: SSIS, Talend, Apache NiFi, or dbt.
+- Understanding of database normalization and data warehousing concepts.
+- Experience with BI tools: Power BI, Tableau, or SSRS.
+
+Preferred Qualifications:
+- Experience with cloud databases: AWS RDS, Azure SQL, or BigQuery.
+- Knowledge of data warehousing solutions (Snowflake, Redshift).
+- Exposure to Python for data manipulation and automation.
+- Certification in Microsoft SQL Server or Oracle DB is a plus.

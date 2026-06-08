@@ -1,0 +1,33 @@
+JD-017 | EMBEDDED SYSTEMS ENGINEER
+--------------------------------------------------------------------------------
+Company: IoTech Innovations
+Location: Pune, India (On-site)
+Experience: 3–7 Years
+Employment Type: Full-Time
+
+About the Role:
+IoTech Innovations is seeking an Embedded Systems Engineer to design firmware
+and software for IoT devices and industrial control systems.
+
+Responsibilities:
+- Design and develop firmware for microcontrollers (ARM Cortex-M, ESP32, STM32).
+- Write optimized C/C++ code for resource-constrained embedded environments.
+- Implement communication protocols: UART, SPI, I2C, CAN, Modbus, MQTT.
+- Debug hardware-software interfaces using oscilloscopes and logic analyzers.
+- Design RTOS-based systems using FreeRTOS or Zephyr.
+- Develop bootloaders and OTA (over-the-air) firmware update mechanisms.
+- Collaborate with hardware engineers during PCB design and bring-up.
+- Conduct unit testing and hardware-in-the-loop (HIL) testing.
+
+Required Skills:
+- Strong proficiency in C and C++ for embedded systems.
+- Experience with microcontrollers: STM32, ESP32, AVR, or PIC.
+- Understanding of RTOS concepts and task scheduling.
+- Hands-on experience with embedded communication protocols.
+- Familiarity with version control (Git) and embedded debugging tools (JTAG, GDB).
+- Knowledge of low-power design techniques for IoT devices.
+
+Preferred Qualifications:
+- Experience with Yocto Project or Buildroot for embedded Linux.
+- Knowledge of hardware description languages (VHDL, Verilog) for FPGA development.
+- Experience with AWS IoT, Azure IoT Hub, or Google Cloud IoT.

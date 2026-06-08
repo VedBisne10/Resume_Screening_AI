@@ -1,0 +1,39 @@
+JD-020 | GENERATIVE AI / LLM APPLICATION DEVELOPER
+--------------------------------------------------------------------------------
+Company: GenAI Ventures
+Location: Bangalore, India (Remote)
+Experience: 2–5 Years
+Employment Type: Full-Time
+
+About the Role:
+GenAI Ventures is hiring a GenAI Application Developer to build next-generation
+AI-powered products using large language models, multimodal AI, and agentic
+frameworks. You will turn cutting-edge AI research into real-world applications.
+
+Responsibilities:
+- Build production-grade LLM applications using LangChain, LlamaIndex, or
+  custom orchestration frameworks.
+- Design and implement RAG systems with vector databases for knowledge-grounded AI.
+- Develop AI agents and multi-agent workflows using frameworks like AutoGen,
+  CrewAI, or LangGraph.
+- Integrate LLM APIs: OpenAI GPT-4, Anthropic Claude, Google Gemini, or
+  open-source models via Hugging Face.
+- Optimize prompt engineering strategies for accuracy, cost, and latency.
+- Implement guardrails, output validation, and safety filters for LLM outputs.
+- Build evaluation pipelines to benchmark LLM application quality.
+- Deploy LLM applications as scalable APIs using FastAPI and Docker.
+
+Required Skills:
+- Proficiency in Python with experience in LLM application development.
+- Hands-on experience with LangChain, LlamaIndex, or similar frameworks.
+- Deep understanding of RAG architecture, chunking strategies, and embedding models.
+- Experience with vector databases: ChromaDB, Pinecone, Weaviate, or Qdrant.
+- Knowledge of prompt engineering patterns: chain-of-thought, few-shot, ReAct.
+- Familiarity with OpenAI API, Anthropic API, or Hugging Face Inference API.
+- Experience deploying applications with FastAPI, Docker, and cloud platforms.
+
+Preferred Qualifications:
+- Experience fine-tuning LLMs using LoRA, QLoRA, or full fine-tuning.
+- Knowledge of multi-modal LLMs (GPT-4V, LLaVA, CLIP).
+- Experience with LLM observability tools: LangSmith, Helicone, or Arize AI.
+- Understanding of AI safety, hallucination mitigation, and responsible AI practices.

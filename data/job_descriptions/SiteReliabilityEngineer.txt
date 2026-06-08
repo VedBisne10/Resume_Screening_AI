@@ -1,0 +1,34 @@
+JD-019 | SITE RELIABILITY ENGINEER (SRE)
+--------------------------------------------------------------------------------
+Company: Nexus Global Systems
+Location: Gurugram, India (Hybrid)
+Experience: 4–8 Years
+Employment Type: Full-Time
+
+About the Role:
+Nexus Global Systems is seeking a Site Reliability Engineer to ensure the
+availability, performance, and scalability of our mission-critical distributed
+systems serving millions of users.
+
+Responsibilities:
+- Define and enforce SLOs, SLAs, and error budgets for production services.
+- Build and maintain observability stacks: metrics, logs, and distributed tracing.
+- Automate toil reduction through scripts, tooling, and self-healing systems.
+- Lead incident management, root cause analysis, and post-mortem reviews.
+- Collaborate with development teams to embed reliability practices into SDLC.
+- Design and test disaster recovery and business continuity plans.
+- Manage Kubernetes clusters and optimize resource utilization.
+- Implement chaos engineering experiments to proactively identify failure modes.
+
+Required Skills:
+- Strong background in Linux systems administration and networking.
+- Proficiency in programming/scripting: Python, Go, or Bash.
+- Deep experience with Kubernetes and container orchestration at scale.
+- Expertise in observability tools: Prometheus, Grafana, Jaeger, ELK Stack.
+- Experience with cloud platforms: AWS, GCP, or Azure.
+- Knowledge of incident management frameworks and on-call practices.
+
+Preferred Qualifications:
+- Experience with chaos engineering tools: Chaos Monkey, Gremlin, LitmusChaos.
+- Knowledge of eBPF-based observability tools.
+- Certifications: CKA, AWS SysOps Administrator, or Google SRE certification.

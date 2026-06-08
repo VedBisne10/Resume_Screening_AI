@@ -1,0 +1,35 @@
+JD-004 | PYTHON DEVELOPER
+--------------------------------------------------------------------------------
+Company: Synapse Technologies
+Location: Chennai, India (Remote)
+Experience: 2–5 Years
+Employment Type: Full-Time
+
+About the Role:
+Synapse Technologies is looking for a skilled Python Developer to build
+backend systems, automation tools, and data-driven applications for our
+enterprise clients.
+
+Responsibilities:
+- Develop and maintain scalable Python applications and microservices.
+- Build and consume RESTful APIs using Django REST Framework or FastAPI.
+- Write efficient database queries using SQLAlchemy or Django ORM.
+- Automate repetitive tasks and build data pipelines using Python scripts.
+- Work with third-party integrations and cloud-based services (AWS/GCP/Azure).
+- Optimize Python code for performance and memory efficiency.
+- Write unit tests and maintain test coverage above 80%.
+- Participate in agile ceremonies (sprints, standups, retrospectives).
+
+Required Skills:
+- Strong command of Python 3.x with hands-on experience.
+- Experience with web frameworks: Django, Flask, or FastAPI.
+- Database proficiency: PostgreSQL, MySQL, or SQLite.
+- Familiarity with asynchronous programming using asyncio or Celery.
+- Working knowledge of Git, Linux/Unix systems, and Docker.
+- Understanding of Python packaging, virtual environments, and dependency management.
+
+Preferred Qualifications:
+- Experience with data processing libraries: Pandas, NumPy.
+- Exposure to message brokers: Redis, RabbitMQ.
+- Knowledge of GraphQL with Python (Strawberry, Graphene).
+- B.Tech in Computer Science or equivalent.

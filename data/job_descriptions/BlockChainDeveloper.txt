@@ -1,0 +1,34 @@
+JD-016 | BLOCKCHAIN DEVELOPER
+--------------------------------------------------------------------------------
+Company: ChainForge Technologies
+Location: Hyderabad, India (Remote)
+Experience: 2–5 Years
+Employment Type: Full-Time
+
+About the Role:
+ChainForge Technologies is hiring a Blockchain Developer to design and build
+decentralized applications (dApps) and smart contracts on Ethereum and other
+blockchain platforms.
+
+Responsibilities:
+- Develop and audit smart contracts in Solidity for Ethereum and EVM-compatible
+  chains (Polygon, Binance Smart Chain).
+- Build decentralized applications (dApps) with Web3.js or Ethers.js frontends.
+- Design token standards: ERC-20, ERC-721 (NFTs), ERC-1155.
+- Integrate with decentralized protocols: Uniswap, Aave, Chainlink oracles.
+- Conduct smart contract security audits and identify vulnerabilities.
+- Set up and maintain blockchain nodes and networks (testnet, mainnet).
+- Collaborate with product teams to design tokenomics and governance models.
+
+Required Skills:
+- Proficiency in Solidity and smart contract development.
+- Experience with Ethereum development tools: Hardhat, Truffle, Foundry.
+- Knowledge of Web3.js, Ethers.js, and MetaMask integration.
+- Understanding of blockchain fundamentals: consensus mechanisms, gas optimization.
+- Familiarity with IPFS for decentralized storage.
+- Knowledge of security vulnerabilities: reentrancy, front-running, overflow attacks.
+
+Preferred Qualifications:
+- Experience with Layer 2 scaling solutions (Arbitrum, Optimism, zkSync).
+- Knowledge of DeFi protocols and yield farming mechanics.
+- Familiarity with Rust-based blockchains: Solana or Polkadot.

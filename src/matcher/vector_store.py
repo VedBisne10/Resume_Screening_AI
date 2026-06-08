@@ -11,11 +11,19 @@ collection = client.get_or_create_collection(
 
 # 
 def add_job_description(job_id, job_text, embedding):
-    collection.add(
-        ids=[job_id],   # Every record needs a unique identifier
-        documents=[job_text],   # Stores the actual JD text
-        embeddings=[embedding.tolist()]     # Create embeddings of the JD  
-    )
+
+    # Check if this JD already exists in ChromaDB using its job_id
+    # This prevents a duplicate ID error if you run the app more than once
+    existing = collection.get(ids=[job_id])
+
+    # existing["ids"] will be an empty list if the JD is not stored yet
+    if not existing["ids"]:
+        # Only store if it doesn't already exist
+        collection.add(
+            ids=[job_id],   # Every record needs a unique identifier
+            documents=[job_text],   # Stores the actual JD text
+            embeddings=[embedding.tolist()]     # Create embeddings of the JD  
+        )
 
 # Function for searching the vector database
 def search_similar_jobs(resume_embedding, top_k=5):

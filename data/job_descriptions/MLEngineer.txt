@@ -1,0 +1,33 @@
+JD-002 | MACHINE LEARNING ENGINEER
+--------------------------------------------------------------------------------
+Company: DataPulse Technologies
+Location: Pune, India (On-site)
+Experience: 2–5 Years
+Employment Type: Full-Time
+
+About the Role:
+DataPulse Technologies is hiring a Machine Learning Engineer to build robust ML
+systems that drive business value across our analytics and recommendation products.
+
+Responsibilities:
+- Develop end-to-end ML pipelines from data preprocessing to model deployment.
+- Work with structured and unstructured data to train classification, regression,
+  and clustering models.
+- Optimize models for performance, scalability, and cost-efficiency.
+- Implement feature engineering strategies and maintain feature stores.
+- Collaborate with data engineers to build reliable data pipelines.
+- Automate model retraining and monitoring using CI/CD for ML.
+- Write clean, testable, and production-ready code.
+
+Required Skills:
+- Proficiency in Python, Scikit-learn, XGBoost, LightGBM, or CatBoost.
+- Experience with deep learning frameworks: Keras, PyTorch, or TensorFlow.
+- Solid understanding of statistics, probability, and linear algebra.
+- Familiarity with data processing tools: Pandas, NumPy, PySpark.
+- Experience with model deployment using FastAPI, Flask, or Docker.
+- Knowledge of experiment tracking with MLflow or similar tools.
+
+Preferred Qualifications:
+- Experience with time series forecasting models (ARIMA, Prophet, LSTM).
+- Hands-on with Kubernetes-based ML deployments.
+- B.Tech/M.Tech in Computer Science, Statistics, or related discipline.

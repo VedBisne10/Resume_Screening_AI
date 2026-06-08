@@ -1,0 +1,33 @@
+JD-012 | DATA ENGINEER
+--------------------------------------------------------------------------------
+Company: StreamFlow Analytics
+Location: Mumbai, India (Hybrid)
+Experience: 3–6 Years
+Employment Type: Full-Time
+
+About the Role:
+StreamFlow Analytics is seeking a Data Engineer to build and maintain scalable
+data pipelines and infrastructure that empower our data science and analytics teams.
+
+Responsibilities:
+- Design, build, and maintain robust ELT/ETL data pipelines.
+- Work with structured and unstructured data from multiple sources (APIs, databases,
+  logs, third-party services).
+- Build and manage data warehouses and data lakes on cloud platforms.
+- Optimize data pipelines for throughput, latency, and cost.
+- Implement data quality checks, lineage tracking, and governance policies.
+- Collaborate with data scientists to ensure data readiness for ML workflows.
+- Develop streaming data pipelines using Apache Kafka and Apache Spark.
+
+Required Skills:
+- Proficiency in Python for data processing (PySpark, Pandas, Airflow).
+- Experience with big data technologies: Apache Spark, Hadoop, or Flink.
+- Strong SQL skills and experience with data warehouses (Snowflake, Redshift, BigQuery).
+- Experience with workflow orchestration tools: Apache Airflow, Prefect, or Dagster.
+- Familiarity with cloud data platforms: AWS Glue, Azure Data Factory, or GCP Dataflow.
+- Understanding of data modeling: star schema, snowflake schema, data vault.
+
+Preferred Qualifications:
+- Experience with streaming data pipelines using Kafka Streams or Flink.
+- Knowledge of dbt (data build tool) for data transformation.
+- Exposure to real-time analytics platforms (Apache Druid, ClickHouse).

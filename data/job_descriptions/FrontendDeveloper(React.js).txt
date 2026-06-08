@@ -1,0 +1,33 @@
+JD-010 | FRONTEND DEVELOPER (REACT.JS)
+--------------------------------------------------------------------------------
+Company: PixelLabs Studio
+Location: Hyderabad, India (Remote)
+Experience: 2–5 Years
+Employment Type: Full-Time
+
+About the Role:
+PixelLabs Studio is hiring a React.js Frontend Developer to craft beautiful,
+responsive, and high-performance user interfaces for our consumer-facing products.
+
+Responsibilities:
+- Build reusable React.js components and maintain a scalable component library.
+- Implement state management using Redux Toolkit, Zustand, or React Context API.
+- Integrate frontend with backend RESTful and GraphQL APIs.
+- Ensure responsive design and cross-browser/cross-device compatibility.
+- Optimize application performance: lazy loading, code splitting, and caching.
+- Write unit and integration tests using Jest and React Testing Library.
+- Collaborate with designers and backend developers in an agile team.
+- Maintain code quality through reviews and adherence to coding standards.
+
+Required Skills:
+- Strong proficiency in React.js (hooks, lifecycle, composition patterns).
+- Expertise in JavaScript (ES6+) and TypeScript.
+- Experience with CSS frameworks: TailwindCSS, Styled-Components, or SASS.
+- Familiarity with build tools: Webpack, Vite, or Parcel.
+- Understanding of accessibility standards (WCAG 2.1) and SEO best practices.
+- Knowledge of version control with Git and GitHub workflows.
+
+Preferred Qualifications:
+- Experience with Next.js (SSR, SSG, ISR).
+- Familiarity with testing frameworks: Cypress (E2E) and Storybook.
+- Knowledge of WebSockets or real-time communication (Socket.io).

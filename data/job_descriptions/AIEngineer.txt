@@ -1,0 +1,35 @@
+JD-001 | ARTIFICIAL INTELLIGENCE ENGINEER
+--------------------------------------------------------------------------------
+Company: NeuralWorks AI
+Location: Bangalore, India (Hybrid)
+Experience: 3–6 Years
+Employment Type: Full-Time
+
+About the Role:
+We are looking for a passionate AI Engineer to join our cutting-edge research and
+product team. You will design, develop, and deploy AI solutions that power our
+flagship products used by millions of users globally.
+
+Responsibilities:
+- Design and implement AI pipelines including data ingestion, model training,
+  evaluation, and deployment.
+- Collaborate with research scientists to translate AI models into scalable
+  production systems.
+- Build LLM-powered applications using frameworks like LangChain and LlamaIndex.
+- Fine-tune large language models (LLMs) using PEFT, LoRA, and RLHF techniques.
+- Monitor and maintain AI systems in production, ensuring performance and reliability.
+- Conduct A/B testing and experiments to continuously improve model accuracy.
+- Stay current with the latest AI research and integrate state-of-the-art techniques.
+
+Required Skills:
+- Strong proficiency in Python; experience with PyTorch or TensorFlow.
+- Hands-on experience with transformer architectures (BERT, GPT, T5, LLaMA).
+- Knowledge of MLOps tools: MLflow, Weights & Biases, DVC.
+- Experience with vector databases: Pinecone, Weaviate, ChromaDB.
+- Understanding of RAG (Retrieval-Augmented Generation) pipelines.
+- Familiarity with cloud platforms: AWS SageMaker, GCP Vertex AI, or Azure ML.
+
+Preferred Qualifications:
+- Publications or contributions to AI/ML open-source projects.
+- Experience with multimodal AI (vision + language models).
+- M.Tech or Ph.D. in Computer Science, AI, or a related field.

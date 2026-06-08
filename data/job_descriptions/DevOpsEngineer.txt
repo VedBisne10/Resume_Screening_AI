@@ -1,0 +1,35 @@
+JD-009 | DEVOPS ENGINEER
+--------------------------------------------------------------------------------
+Company: CloudNative Systems
+Location: Pune, India (Hybrid)
+Experience: 3–6 Years
+Employment Type: Full-Time
+
+About the Role:
+CloudNative Systems is seeking a DevOps Engineer to build and maintain our
+CI/CD infrastructure, automate deployments, and ensure the reliability and
+scalability of cloud-based systems.
+
+Responsibilities:
+- Design, implement, and maintain CI/CD pipelines using Jenkins, GitHub Actions,
+  or GitLab CI.
+- Manage cloud infrastructure on AWS, GCP, or Azure using Terraform or Pulumi.
+- Containerize applications using Docker and orchestrate with Kubernetes (EKS/GKE).
+- Monitor system health using Prometheus, Grafana, ELK Stack, or Datadog.
+- Automate infrastructure provisioning and configuration management with Ansible.
+- Enforce security best practices including secrets management (HashiCorp Vault).
+- Collaborate with development teams to streamline deployment workflows.
+- Implement disaster recovery, scaling policies, and incident response procedures.
+
+Required Skills:
+- Hands-on experience with AWS, GCP, or Azure cloud platforms.
+- Proficiency in Docker and Kubernetes.
+- Experience with IaC tools: Terraform, CloudFormation, or Pulumi.
+- Strong scripting skills: Bash, Python, or Go.
+- Knowledge of CI/CD tools: Jenkins, GitHub Actions, CircleCI.
+- Understanding of networking: DNS, VPN, load balancers, firewalls.
+
+Preferred Qualifications:
+- Certifications: AWS DevOps Engineer, CKA (Certified Kubernetes Administrator).
+- Experience with GitOps tools: ArgoCD, Flux.
+- Knowledge of service mesh technologies: Istio, Linkerd.

@@ -1,0 +1,34 @@
+JD-013 | CYBERSECURITY ENGINEER
+--------------------------------------------------------------------------------
+Company: SecureShield Technologies
+Location: Delhi NCR, India (On-site)
+Experience: 3–7 Years
+Employment Type: Full-Time
+
+About the Role:
+SecureShield Technologies is hiring a Cybersecurity Engineer to protect our
+digital assets, identify vulnerabilities, and build a security-first culture
+across the organization.
+
+Responsibilities:
+- Conduct penetration testing, vulnerability assessments, and security audits.
+- Monitor and respond to security incidents using SIEM tools (Splunk, QRadar).
+- Implement and manage endpoint detection and response (EDR) solutions.
+- Design and enforce network security policies (firewalls, IDS/IPS, VPN).
+- Perform threat modeling and risk assessments for applications and infrastructure.
+- Develop and maintain security playbooks and incident response procedures.
+- Ensure compliance with security frameworks: ISO 27001, SOC 2, NIST, PCI-DSS.
+- Educate internal teams on security best practices and phishing awareness.
+
+Required Skills:
+- Expertise in network security: firewalls, VPNs, WAF, IDS/IPS.
+- Hands-on experience with penetration testing tools: Metasploit, Burp Suite, Nmap.
+- Knowledge of OWASP Top 10 and common vulnerability exploitation techniques.
+- Proficiency with SIEM platforms: Splunk, QRadar, or Microsoft Sentinel.
+- Understanding of cryptography, PKI, and SSL/TLS protocols.
+- Familiarity with cloud security in AWS, Azure, or GCP.
+
+Preferred Qualifications:
+- Certifications: CEH, CISSP, OSCP, or CompTIA Security+.
+- Experience with threat intelligence platforms and dark web monitoring.
+- Knowledge of Zero Trust architecture.

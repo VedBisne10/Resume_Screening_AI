@@ -24,6 +24,6 @@ def process_resume(resume_path):
     job_descriptions = (load_job_descriptions("data/job_descriptions"))
 
     # Rank jobs
-    ranked_jobs = rank_jobs(resume_skills, resume_embedding, job_descriptions)
+    ranked_jobs = rank_jobs(cleaned_text, resume_embedding, job_descriptions)
 
     return ranked_jobs
