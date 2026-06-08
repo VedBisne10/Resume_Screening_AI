@@ -70,10 +70,7 @@ for job_id, job_text, distance in zip(
     # Use GPT to compare JD skills against the resume summary
     # Passing resume_summary (structured list) instead of full resume text for better accuracy
     # GPT will return which skills are matched and which are missing
-    results = llm_skill_match(
-        jd_skills,       # list of skills the job requires
-        resume_summary   # structured summary of what the candidate has
-    )
+    results = llm_skill_match(jd_skills, resume_summary)
 
     # Print the skills that the candidate has (directly or through related technologies)
     print("\nMatched Skills:")
