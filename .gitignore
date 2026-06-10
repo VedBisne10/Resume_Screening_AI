@@ -4,6 +4,9 @@
 # Environment Variables
 .env
 
+# Streamlit secrets — never commit API keys
+.streamlit/secrets.toml
+
 # Python Cache
 __pycache__/
 *.pyc

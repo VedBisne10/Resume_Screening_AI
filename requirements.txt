@@ -1,15 +1,7 @@
 streamlit
-pandas
-numpy
 PyPDF2
 scikit-learn
 sentence-transformers
 openai
-langchain
-python-dotenv
-pyyaml
-spacy
-tqdm
 chromadb
-torch 
-torchvision
+tqdm

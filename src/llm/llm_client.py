@@ -1,17 +1,13 @@
-from openai import OpenAI       # OpenAI library used to talk to GPT models via API
-from dotenv import load_dotenv  # load_dotenv reads the .env file and loads the API key into the environment
-import os                       # os is used to read environment variables like the API key
+from openai import OpenAI       # OpenAI library used to talk to LLM models via API
+import streamlit as st          # Streamlit is used to access secrets stored in Streamlit Cloud
 import time                     # time is used to add a delay between retries when rate limited
 
-# Load the .env file so we can access OPENROUTER_API_KEY stored inside it
-load_dotenv()
-
-# Create a connection to OpenRouter (which gives us access to GPT models)
-# api_key: our secret key stored in .env file — never hardcode this in the code
-# base_url: OpenRouter's API address instead of the default OpenAI address
+# Read the API key from Streamlit Secrets
+# On Streamlit Cloud: add OPENROUTER_API_KEY in Settings -> Secrets
+# For local development: add it to .streamlit/secrets.toml file
 client = OpenAI(
-    api_key=os.getenv("OPENROUTER_API_KEY"),
-    base_url="https://openrouter.ai/api/v1"
+    api_key=st.secrets["OPENROUTER_API_KEY"],   # API key loaded from Streamlit secrets — never hardcode this
+    base_url="https://openrouter.ai/api/v1"     # OpenRouter's API address
 )
 
 
@@ -49,4 +45,3 @@ def call_llm(prompt, retries=3, delay=10):
                 # If it's a different error (not rate limit), don't retry — just return None
                 print(f"LLM error: {e}")
                 return None
-    
