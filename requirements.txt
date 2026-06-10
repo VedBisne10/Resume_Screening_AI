@@ -5,3 +5,6 @@ sentence-transformers
 openai
 chromadb
 tqdm
+torch
+torchvision
+
