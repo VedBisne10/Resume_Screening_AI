@@ -17,10 +17,10 @@ from src.utils.helpers import load_job_descriptions          # Loads all .txt JD
 
 # Page Configuration
 # Sets the browser tab title, icon, and layout width for the Streamlit app
-st.set_page_config(page_title="HireStream AI", page_icon="📄", layout="centered")
+st.set_page_config(page_title="ResumeScreening AI", page_icon="📄", layout="centered")
 
 # Main heading shown at the top of the page
-st.title("📄 HireStream AI")
+st.title("📄 ResumeScreening")
 
 # Subtitle explaining what the app does
 st.markdown("Upload your resume and get the top matching job roles ranked by skill match score.")
