@@ -82,7 +82,7 @@ resume_files = st.file_uploader(
 )
 
 # Slider to control how many top matching jobs to display after analysis
-# min is 1, max is the total number of JDs available, default is 3 (or less if fewer JDs exist)
+# ChromaDB always searches ALL JDs — this only controls how many results to show at the end
 top_k = st.slider(
     "Number of top matches to show",
     min_value=1,
@@ -144,8 +144,10 @@ if analyze:
                 # Convert resume text into a vector (embedding) for ChromaDB search
                 resume_embedding = generate_embedding(resume_text)
 
-                # Query ChromaDB to find the top_k most similar JDs to this resume
-                similar_jobs = search_similar_jobs(resume_embedding, top_k=top_k)
+                # Query ChromaDB to get ALL JDs — we never filter here
+                # top_k is only used to limit displayed results AFTER LLM scoring
+                # This ensures no good match is missed due to vector distance ranking
+                similar_jobs = search_similar_jobs(resume_embedding, top_k=len(job_descriptions))
 
                 # For each matched JD, run LLM skill matching and calculate the ATS score
                 job_results = []
@@ -184,6 +186,9 @@ if analyze:
 
                 # Sort all job results by score descending — best match first
                 job_results.sort(key=lambda x: x["score"], reverse=True)
+
+                # Trim to only show top_k results — LLM scored all JDs, now we limit display
+                job_results = job_results[:top_k]
 
             # ── Results for this candidate ────────────────────────────────────
             st.markdown(f"### 🏆 Top Matching Jobs for {candidate_name}")
