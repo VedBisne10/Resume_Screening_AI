@@ -11,3 +11,5 @@ pyyaml
 spacy
 tqdm
 chromadb
+torch 
+torchvision

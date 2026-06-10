@@ -14,11 +14,21 @@ def llm_skill_match(jd_skills, resume_summary):
 
     # Try to convert GPT's text response into a Python dictionary
     try:
-        # json.loads() converts a JSON string into a Python dictionary
-        # .strip() removes any extra spaces or newlines from the response before parsing
-        results = json.loads(response.strip())
+        # If response is None (model returned no content), treat it as a failed match
+        if not response:
+            raise ValueError("LLM returned empty response")
 
-    except json.JSONDecodeError:
+        # Strip markdown code blocks if the model wrapped the JSON in ```json ... ```
+        cleaned = response.strip()
+        if cleaned.startswith("```"):
+            cleaned = cleaned.split("\n", 1)[-1]
+        if cleaned.endswith("```"):
+            cleaned = cleaned.rsplit("```", 1)[0]
+
+        # json.loads() converts a JSON string into a Python dictionary
+        results = json.loads(cleaned.strip())
+
+    except (json.JSONDecodeError, ValueError):
         # If GPT returned something unexpected that is not valid JSON, we handle the error here
         # Instead of crashing the program, we default every skill to "NO"
         print(f"Warning: Could not parse LLM response: {response}")

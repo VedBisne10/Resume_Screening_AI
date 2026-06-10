@@ -1,4 +1,7 @@
 def document_extraction_prompt(text):
+    # This function builds the instruction we send to GPT for extracting information
+    # from any document — works for both resumes and job descriptions
+    # It returns a formatted string (the prompt) that tells GPT exactly what to do
 
     return f"""
 You are an expert ATS (Applicant Tracking System) parser.
@@ -34,7 +37,7 @@ IMPORTANT RULES:
 
 - Extract all the education and experience present in the resume
 
-- Extract expirience with its details about the expirience
+- Extract experience with its details about the experience
 
 Bad Examples:
 Programming
@@ -60,7 +63,14 @@ Document:
 {text}
 """
 
+
 def skill_validation_prompt(jd_skills, resume_summary):
+    # This function builds the instruction we send to GPT for matching skills
+    # It takes the list of required JD skills and the candidate's resume summary
+    # and asks GPT to evaluate ALL skills at once and return YES or NO for each
+
+    # Convert the list of JD skills into a formatted bullet list for the prompt
+    # Example: ["Python", "Docker"] becomes "- Python\n- Docker"
     skills_list = "\n".join(f"- {skill}" for skill in jd_skills)
 
     return f"""
@@ -74,7 +84,7 @@ Required Skills from Job Description:
 
 Instructions:
 - For each skill, return YES if the candidate demonstrates that competency
-  either directly (skill is mentioned) OR indirectly (they have used 
+  either directly (skill is mentioned) OR indirectly (they have used
   technologies/built projects that prove that skill).
 - Return NO only if there is genuinely no evidence of that skill.
 

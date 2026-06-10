@@ -9,7 +9,7 @@ from src.matcher.embedding_matcher import generate_embedding  # Import function 
 
 # Extract raw text from the resume PDF file
 # This gives us the original unmodified text exactly as it appears in the PDF
-resume_text = extract_text_from_pdf("data/resumes/Resume.pdf")
+resume_text = extract_text_from_pdf("data/resumes/Ayush_Raut_Resume.pdf")
 
 # Keep the original resume text separately for sending to the LLM
 # We do NOT clean this because cleaning would destroy terms like C++, scikit-learn, .NET
