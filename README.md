@@ -166,3 +166,4 @@ To add more JD's:
 - The free tier of OpenRouter has rate limits. If you see rate limit errors, wait a moment and retry or reduce the top-k slider to 1–3.
 - The app uses ChromaDB with persistent storage (`./chroma_db`). JD vectors are saved on first run and reused automatically.
 - For Streamlit Cloud deployment, add `OPENROUTER_API_KEY` in your app's **Settings → Secrets**.
+- It takes time to give the response so wait patiently
