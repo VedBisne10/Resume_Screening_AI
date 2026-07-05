@@ -152,11 +152,11 @@ The app will open at `http://localhost:8501`.
 
 AI Engineer · Backend Developer · Blockchain Developer · Cloud Engineer (AWS) · Computer Vision Engineer · Cybersecurity Engineer · Data Engineer · Data Scientist · DevOps Engineer · Embedded Systems Engineer · Frontend Developer (React.js) · Full Stack Developer · GenAI Engineer · Java Developer · ML Engineer · Mobile App Developer (Flutter) · NLP Engineer · Python Developer · Site Reliability Engineer · SQL / Database Developer
 
-(To add more JD's:
-    1. Create a .txt file
-    2. Paste the JD in the .txt file
-    3. Move the .txt to data\job_descriptions
-    4. Save)
+To add more JD's:
+1. Create a .txt file
+2. Paste the JD in the .txt file
+3. Move the .txt to data\job_descriptions
+4. Save
 
 
 ---
