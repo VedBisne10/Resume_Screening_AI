@@ -11,7 +11,7 @@ client = OpenAI(
 )
 
 
-def call_llm(prompt, retries=3, delay=10):
+def call_llm(prompt, retries=3, delay=30):
     # This function takes a text prompt and sends it to the LLM, then returns the response
     # retries: how many times to retry if rate limited (default 3)
     # delay: how many seconds to wait between retries (default 10 seconds)
@@ -19,7 +19,7 @@ def call_llm(prompt, retries=3, delay=10):
     for attempt in range(retries):
         try:
             response = client.chat.completions.create(
-                model="openai/gpt-oss-20b:free",   # Free model on OpenRouter
+                model="openai/gpt-oss-120b:free",   # Free model on OpenRouter
                 temperature=0,                      # Temperature 0 means consistent, deterministic answers
                 max_tokens=2000,                    # Max tokens for the response
                 messages=[{"role": "user", "content": prompt}]  # Send the prompt as a user message

@@ -144,10 +144,13 @@ if analyze:
                 # Convert resume text into a vector (embedding) for ChromaDB search
                 resume_embedding = generate_embedding(resume_text)
 
-                # Query ChromaDB to get ALL JDs — we never filter here
-                # top_k is only used to limit displayed results AFTER LLM scoring
-                # This ensures no good match is missed due to vector distance ranking
-                similar_jobs = search_similar_jobs(resume_embedding, top_k=len(job_descriptions))
+                # Query ChromaDB for a wider candidate pool than what we display.
+                # Always fetch at least 10 JDs (or all if fewer exist) so the LLM
+                # has enough candidates to find the truly best skill matches.
+                # The displayed results are trimmed to top_k AFTER LLM re-ranking.
+                candidate_pool = max(10, top_k)
+                candidate_pool = min(candidate_pool, len(job_descriptions))
+                similar_jobs = search_similar_jobs(resume_embedding, top_k=candidate_pool)
 
                 # For each matched JD, run LLM skill matching and calculate the ATS score
                 job_results = []
