@@ -4,7 +4,7 @@ An intelligent resume screening system that matches candidate resumes against jo
 
 ## 🔗 Live Demo
 
-> **Demo:** [Link coming soon](#)
+> **Demo:** https://drive.google.com/file/d/1zoyujw9tADMCha4rgsTeSZ7PYd1ZREh_/view?usp=sharing(#)
 
 ---
 
